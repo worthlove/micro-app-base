@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+/* 设置按钮颜色以及文字颜色 */
+.btnClass {
+  background-color: green;
+}
+
+.linkClass {
+  color: aliceblue;
+}
+
+.linkClass:hover {
+  color: aliceblue;
+}
