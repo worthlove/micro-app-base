@@ -6,19 +6,19 @@ function App() {
   return (
     <div className='App'>
       <button className='btnClass'>
-        <Link to='/reactApp' className='linkClass'>
+        <Link to='/page/reactApp' className='linkClass'>
           react
         </Link>
       </button>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; || &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <button className='btnClass'>
-        <Link to='/vueApp' className='linkClass'>
+        <Link to='/page/vueApp' className='linkClass'>
           vue
         </Link>
       </button>
       <Routes>
-        <Route path='reactApp' element={<Micro_react />}></Route>
-        <Route path='vueApp' element={<Micro_vue />}></Route>
+        <Route path='/page/reactApp' element={<Micro_react />}></Route>
+        <Route path='/page/vueApp' element={<Micro_vue />}></Route>
       </Routes>
     </div>
   )
