@@ -10,9 +10,9 @@ import type { MenuProps } from 'antd';
 import { Breadcrumb, Layout, Menu, theme,Avatar,Badge, Space } from 'antd';
 
 const { Header, Content, Sider ,Footer} = Layout;
-
+// 创建顶部菜单数据
 const items1: MenuProps['items'] = ['1', '2'].map((key) => ({key,label: `nav${key}`,}));
-
+// 创建侧边菜单数据
 const items2: MenuProps['items'] = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
     (icon, index) => {
       const key = String(index + 1);
