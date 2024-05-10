@@ -5,7 +5,7 @@ import 'reset-css'
 import App from './App.tsx'
 import './index.css'
 import microApp from '@micro-zoe/micro-app'
-import 'antd/dist/antd'
+import 'antd/dist/antd' // 引入组件库的样式文件
 
 microApp.start()
 

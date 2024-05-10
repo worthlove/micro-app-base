@@ -12,7 +12,11 @@
   "dependencies": {
     "@ant-design/icons": "^5.3.6",
     "@micro-zoe/micro-app": "^1.0.0-rc.4",
+    "@types/nprogress": "^0.2.3",
+    "@types/react-router-dom": "^5.3.3",
     "antd": "^5.16.5",
+    "axios": "^1.6.8",
+    "nprogress": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
