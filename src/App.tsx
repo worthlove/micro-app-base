@@ -42,8 +42,8 @@ function App() {
       <Layout style={{height:'100vh',width:'auto'}}>
         {/* 顶部菜单栏 */}
         <Header style={{ display: 'flex', alignItems: 'center' }}>
-          <Link to='/page/reactApp' className='linkClass'>react</Link>
-          <Link to='/page/vueApp' className='linkClass'>vue</Link>
+          <Link to={'/page/reactApp'} className='linkClass'>react</Link>
+          <Link to={'/page/vueApp'} className='linkClass'>vue</Link>
           <Menu
               theme="dark"
               mode="horizontal"
